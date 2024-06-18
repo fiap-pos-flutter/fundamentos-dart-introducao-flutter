@@ -2,7 +2,11 @@ import 'dart:async';
 
 Future<String> fetchData() {
   return Future.delayed(Duration(seconds: 2), () {
-    return "Dados carregados!";
+    if (DateTime.now().second % 2 == 0) {
+      return "Dados carregados com sucesso!";
+    } else {
+      throw Exception("Erro ao carregar dados.");
+    }
   });
 }
 
