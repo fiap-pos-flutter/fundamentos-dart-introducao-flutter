@@ -2,32 +2,14 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "async",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/async-2.11.0",
+      "name": "clock",
+      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.12"
     },
     {
-      "name": "collection",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/collection-1.19.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "http",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/http-0.13.6",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "http_parser",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/http_parser-4.1.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "meta",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/meta-1.15.0",
+      "name": "intl",
+      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/intl-0.17.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -38,37 +20,13 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "source_span",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/source_span-1.10.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "string_scanner",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/string_scanner-1.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "2.18"
-    },
-    {
-      "name": "term_glyph",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/term_glyph-1.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "typed_data",
-      "rootUri": "file:///Users/felipeaugusto/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "exemplo_pacotes",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-06-18T19:30:52.942730Z",
+  "generated": "2024-06-24T22:14:32.731964Z",
   "generator": "pub",
   "generatorVersion": "3.4.1",
   "flutterRoot": "file:///Users/felipeaugusto/fvm/versions/3.22.1",
