@@ -10,60 +10,76 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Layouts em Flutter'),
+          title: Text('Meu Primeiro App Flutter para Web'),
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: <Widget>[
-            Container(
-              color: Colors.blue,
-              height: 100,
-              child: Center(
-                child: Text(
-                  'Container 1',
-                  style: TextStyle(color: Colors.white, fontSize: 24),
-                ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text(
+                'Olá, Flutter!',
+                style: TextStyle(fontSize: 24),
               ),
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: <Widget>[
-                Container(
-                  color: Colors.green,
-                  height: 100,
-                  width: 100,
-                  child: Center(
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: <Widget>[
+                  Container(
+                    padding: EdgeInsets.all(16.0),
+                    color: Colors.blue,
+                    child: Text(
+                      'Container 1',
+                      style: TextStyle(color: Colors.white),
+                    ),
+                  ),
+                  Container(
+                    padding: EdgeInsets.all(16.0),
+                    color: Colors.red,
                     child: Text(
                       'Container 2',
-                      style: TextStyle(color: Colors.white, fontSize: 20),
+                      style: TextStyle(color: Colors.white),
                     ),
                   ),
+                ],
+              ),
+              Container(
+                margin: EdgeInsets.only(top: 20.0),
+                padding: EdgeInsets.all(16.0),
+                decoration: BoxDecoration(
+                  color: Colors.green,
+                  borderRadius: BorderRadius.circular(10.0),
                 ),
-                Container(
-                  color: Colors.orange,
-                  height: 100,
-                  width: 100,
-                  child: Center(
-                    child: Text(
-                      'Container 3',
-                      style: TextStyle(color: Colors.white, fontSize: 20),
-                    ),
-                  ),
-                ),
-              ],
-            ),
-            Expanded(
-              child: Container(
-                color: Colors.purple,
-                child: Center(
-                  child: Text(
-                    'Container Expandido',
-                    style: TextStyle(color: Colors.white, fontSize: 24),
-                  ),
+                child: Text(
+                  'Container com borda arredondada',
+                  style: TextStyle(color: Colors.white),
                 ),
               ),
-            ),
-          ],
+              SizedBox(height: 20),
+              ElevatedButton(
+                onPressed: () {
+                  print('Botão Pressionado!');
+                },
+                child: Text('Pressione-me!'),
+              ),
+              Expanded(
+                child: ListView(
+                  children: <Widget>[
+                    ListTile(
+                      leading: Icon(Icons.map),
+                      title: Text('Mapa'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.photo),
+                      title: Text('Fotos'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.phone),
+                      title: Text('Telefone'),
+                    ),
+                  ],
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );
