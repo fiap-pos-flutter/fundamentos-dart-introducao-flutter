@@ -26,10 +26,10 @@
       "languageVersion": "2.12"
     }
   ],
-  "generated": "2024-06-24T22:14:32.731964Z",
+  "generated": "2024-10-01T17:48:51.904714Z",
   "generator": "pub",
-  "generatorVersion": "3.4.1",
-  "flutterRoot": "file:///Users/felipeaugusto/fvm/versions/3.22.1",
-  "flutterVersion": "3.22.1",
+  "generatorVersion": "3.5.3",
+  "flutterRoot": "file:///Users/felipeaugusto/fvm/versions/3.24.3",
+  "flutterVersion": "3.24.3",
   "pubCache": "file:///Users/felipeaugusto/.pub-cache"
 }
